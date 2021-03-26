@@ -15,6 +15,7 @@
 #popap{
     z-index: 1000;
     width: 100%;
+
     display: none;
     position: fixed;
     margin: 0 auto;
@@ -27,12 +28,17 @@
     
 }
 .inner-popap{
-    top: 10%;
+    top: 5%;
     background-color: #fff;
     left: 20%;
+    scrollbar-color: rgb(223, 16, 16);
+    overflow: scroll;
+    bottom: 5%;
+    height: 600px;
 }
 
 .header-fix{
+    
     z-index: 1000;
     position: fixed;
     top: 0;
